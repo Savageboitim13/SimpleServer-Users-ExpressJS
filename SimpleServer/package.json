@@ -1,16 +1,30 @@
 {
   "name": "simpleserver",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Simple server setup",
+  "main": "app.js",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "devStart": "nodemon run app.js"
   },
+  "keywords": [
+    "node",
+    "express",
+    "ejs",
+    "simpleserver"
+  ],
+  "author": {
+    "name": "Venen Jean",
+    "email": "samvenom69@gmail.com",
+    "github": "https://github.com/Savageboitim13"
+  },
+  "license": "ISC",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

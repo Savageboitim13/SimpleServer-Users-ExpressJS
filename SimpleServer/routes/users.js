@@ -49,7 +49,7 @@ router
   });
 
 // ! Users list -  required
-const users = [{ name: "Kyle" }, { name: "Sally" }];
+const users = [{ name: "Tom" }, { name: "Jerry" }];
 // ? Gets the users by their ID
 router.param("id", (req, res, next, id) => {
   // Random variable = users[id]

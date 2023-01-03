@@ -1,0 +1,10 @@
+### Add as much you want
+POST http://localhost:4208/users/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Wumpus"
+}
+
+### Get diffrent users
+GET http://localhost:4208/users/2 HTTP/1.1

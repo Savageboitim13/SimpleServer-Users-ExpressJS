@@ -16,6 +16,14 @@ http://127.0.0.1:4208/users?name=Tom -> Create URL params
 
 ## Usage
 
+## NOTE
+
+If you use the rest client API:
+
+1. Install VSC Rest Extension.
+2. Run the command from the requests.rest file
+3. Look at your terminal to see the output and at the Response tab in VSC
+
 ```bash
 Copy code:
 gh repo clone Savageboitim13/SimpleServer-Users-ExpressJS
